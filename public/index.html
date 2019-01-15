@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>CSS/HTML Workshop with Privateaser</title>
-  </head>
-  <body>
-    <div id="bar">
-      <input class="js-name" type="text" placeholder="Bar name"/>
-      <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
-      <input class="js-price-by-person" type="number" placeholder="Price by person"/>
+</head>
+<body>
+    <span class="border"></span>
+    <p class=" font-weight-bold text-uppercase" style="padding-left:40%; margin-top:5%;"  >Calcul des prix des bars de Paris</p>
+    <div id="bar"  style="padding-left:30%; margin-top:5%;">
+        <input class="js-name" type="text" placeholder="Bar name"  />
+        <input class="js-price-by-hour" type="number" placeholder="Price by hour" />
+        <input class="js-price-by-person" type="number" placeholder="Price by person" />
     </div>
-    <div id="booker">
-      <input class="js-name" type="text" placeholder="Booker name"/>
-      <input class="js-time" type="number" placeholder="Time in h"/>
-      <input class="js-persons" type="number" placeholder="Persons"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
+    <div id="booker"  style="padding-left:30%; margin-top:2%;" >
+        <input class="js-name" type="text" placeholder="Booker name" />
+        <input class="js-time" type="number" placeholder="Time in h" />
+        <input class="js-persons" type="number" placeholder="Persons" />
+        <input class="js-option" type="checkbox" placeholder="Deductible option" style="margin-left:3%;" />
     </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
+    <button id="compute" class=" font-weight-bold" style="margin-left:10%; margin-top:2%;" >Compute</button>
+    <div id="actors" ></div>
     <script src="privateaser.js"></script>
     <script src="index.js"></script>
-  </body>
+
+   
+</body>
 </html>
