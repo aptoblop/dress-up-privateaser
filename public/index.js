@@ -8,16 +8,16 @@
     const template = actors.map(actor => {
       return `
 
-
- <div class="container">
+<span class="border border-primary"></span>
+ <div class="container  border border-danger">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-3  ">
                 ${actor.who}
             </div>
-            <div class="col">
+            <div class="col  ">
                 ${actor.type}
             </div>
-            <div class="col">
+            <div class="col  ">
                 ${actor.amount}
             </div>
         </div>
